@@ -192,7 +192,34 @@ strong {font-size: 20px;}
 }
 #contact_box > .section_title {
     border-left: 35px solid #ed145b;;
-} 
+}
+#web_list {
+    margin-bottom: 150px;
+}
+#web_list > li {
+    text-align: center;
+    
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+#web_list > li img:hover {
+    box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.1);
+    transition-duration: 0.4s;
+}
+#design_list {
+    text-align: center;
+}
+#design_list > li {
+    display: inline-block;
+    width: 19.65%;
+    /* margin-bottom: 10px; */
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+#design_list > li:hover img {
+    transition-duration: 1s;
+    transform: scale(1.1, 1.1);
+}
 
 /* 하단배경 */
 #main_bg {
