@@ -1,0 +1,66 @@
+
+x
+.bg-ai_s {
+    width: 130px; height: 25px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-css {
+    width: 53px; height: 53px;
+    background: url('css_sprites.png') -10px -145px;
+}
+
+x
+.bg-css_s {
+    width: 130px; height: 25px;
+    background: url('css_sprites.png') -10px -55px;
+}
+
+x
+.bg-ect {
+    width: 53px; height: 53px;
+    background: url('css_sprites.png') -83px -145px;
+}
+
+x
+.bg-html {
+    width: 53px; height: 53px;
+    background: url('css_sprites.png') -156px -145px;
+}
+
+x
+.bg-html_s {
+    width: 130px; height: 25px;
+    background: url('css_sprites.png') -10px -100px;
+}
+
+x
+.bg-js {
+    width: 53px; height: 53px;
+    background: url('css_sprites.png') -229px -145px;
+}
+
+x
+.bg-js_s {
+    width: 130px; height: 25px;
+    background: url('css_sprites.png') -160px -10px;
+}
+
+x
+.bg-ps {
+    width: 53px; height: 53px;
+    background: url('css_sprites.png') -10px -218px;
+}
+
+x
+.bg-ps_s {
+    width: 130px; height: 25px;
+    background: url('css_sprites.png') -160px -55px;
+}
+
+x
+.bg-ai {
+    width: 53px; height: 53px;
+    background: url('css_sprites.png') -83px -218px;
+}

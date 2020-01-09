@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beom-Jun’s Portfolio</title>
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!-- 사용자 css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <!-- 제이쿼리 -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- 이미지로드 -->
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <!-- 팬시박스 플러그인 -->
+    <link rel="stylesheet" href="./js/jquery.fancybox.min.css">
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <!-- 사용자 js -->
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div class="main_wrap">
+        <h1 id="item01">Beom-Jun’s Portfolio site</h1>
+        <nav id="gnb">
+            <ul>
+                <li id="home"><h4>Home</h4></li>
+                <li id="about"><h4>About</h4></li>
+                <li id="portfolio"><h4>Portfolio</h4></li>
+                <li id="contact"><h4>Contact</h4></li>
+            </ul>
+        </nav>
+        <section id="s1" class="show">
+            <div id="home_box">
+                <div class="section_title">
+                    <h2>Home</h2>
+                </div>
+                <div class="col">
+                    <h1>안녕하세요 박범준입니다!</h1>
+                    <p>현재 포트폴리오용 사이트를 제작중입니다!</p>
+                </div>
+            </div>
+        </section>
+        <section id="s2">
+            <div id="about_box">
+                <div class="section_title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="col">
+                    <div id="profile">
+                        <ul>
+                            <li><img src="./imgs/me.png" alt="프로필이미지"></li>
+                            <li><strong>박범준 (Park Boem-Jun)</strong></li>
+                            <li>1984. 5. 3 (만 36세)</li>
+                            <li>유한대학교 시각디자인과</li>
+                            <li>부천시 오정구 고강동 거주</li>
+                            <li>010.7588.2721</li>
+                            <li><a href="maito:lynsphere@gmail.com">lynsphere@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div id="tools">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li><div class="ps_icon"></div></li>
+                            <li><div class="ps_score"></div></li>
+                            <li>CS4버전 기준 거의 모든 툴을 능숙하게 사용</li>
+                        </ul>
+                        <ul>
+                            <li><div class="ai_icon"></div></li>
+                            <li><div class="ai_score"></div></li>
+                            <li>CS4버전 기준 거의 모든 툴을 능숙하게 사용</li>
+                        </ul>
+                        <ul>
+                            <li><div class="html5_icon"></div></li>
+                            <li><div class="html5_score"></div></li>
+                            <li>능숙해지기 시작한 Html코딩</li>
+                        </ul>
+                        <ul>
+                            <li><div class="css_icon"></div></li>
+                            <li><div class="css_score"></div></li>
+                            <li>참고자료를 활용하여 각종 레아아웃 구현</li>
+                        </ul>
+                        <ul>
+                            <li><div class="js_icon"></div></li>
+                            <li><div class="js_score"></div></li>
+                            <li>예제를 활용한 기능 구현 및 제이쿼리,플러그인 활용</li>
+                        </ul>
+                        <ul>
+                            <li><div class="ect_icon"></div></li>
+                            <li>MS워드, 엑셀, 파워포인트를 활용한 간단한 문서제작</li>
+                            <li>윈도우 재설치 및 간단한 PC자가정비</li>
+                        </ul>
+                        <div id="licence">
+                            <h3>Licence</h3>
+                            <ul>
+                                <li>컴퓨터 그래픽스 운용기능사<br><span>2002.10 취득</span></li>
+                                <li>정보기기 운용기능사<br><span>2002.10 취득</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s3">
+            <div id="portfolio_box">
+                <div class="section_title">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="col">
+                    <h3>Web Site</h3>
+                    <ul>
+                        <li>
+                            <h4>농산물쇼핑몰 '보리보리쌀'</h4>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/boriborissal.jpg">
+                                <img src="./imgs/portfolio/small/s_boriborissal.jpg"></a>
+                            <br>
+                            <a href="https://lynsphere.github.io/boriborissal/" target="_blank">사이트바로가기</a>
+                            <p>개인작업</p>
+                        </li>
+                        <li>
+                            <h4>카페베네 리뉴얼</h4>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/2nd_caffebene.jpg">
+                                <img src="./imgs/portfolio/small/s_caffe.jpg"> </a>
+                            <br>
+                            <a href="https://lynsphere.github.io/2nd_caffebene/" target="_blank">사이트바로가기</a>
+                            <p>팀 작업 (메인디자인,메인페이지담당)</p>
+                        </li>
+                        <li>
+                            <h4>자전거 쇼핑몰</h4>
+                            <a data-fancybox_="gallery" href="./imgs/wedding-1983483_1920.jpg">
+                                <img src="./imgs/portfolio/small/s_road_shop.jpg"></a>
+                            <br>
+                            <a href="https://lynsphere.github.io/The-Road-Shop/" target="_blank">사이트바로가기</a>
+                            <p>개인작업 반응형웹페이지</p>
+                        </li>
+                        <li>
+                            <h4>해마루 이차동물병원 리뉴얼</h4>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/heamaru.jpg">
+                                <img src="./imgs/portfolio/small/s_heamaru.jpg"> </a>
+                            <br>
+                            <a href="https://lynsphere.github.io/2nd_Haemaru/" target="_blank">사이트바로가기</a>
+                            <p>팀 작업 (메인디자인,메인페이지담당)</p>
+                        </li>
+                    </ul>
+                    <h3>Design</h3>
+                    <ul>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/parking_free.jpg">
+                                <img src="./imgs/portfolio/small/s_parking.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/icons.jpg">
+                                <img src="./imgs/portfolio/small/s_icons.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/note_phone.jpg">
+                                <img src="./imgs/portfolio/small/s_phone.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/phone_acc.jpg">
+                                <img src="./imgs/portfolio/small/s_acc.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/giant.jpg">
+                                <img src="./imgs/portfolio/small/s_giant.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/min_icon.jpg">
+                                <img src="./imgs/portfolio/small/s_min.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/deer01.jpg">
+                                <img src="./imgs/portfolio/small/s_deer.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/Retro.jpg">
+                                <img src="./imgs/portfolio/small/s_re.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="./imgs/portfolio/big/ani_h.jpg">
+                                <img src="./imgs/portfolio/small/s_ani.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="s4">
+            <div id="contact_box">
+                <div class="section_title">
+                    <h2>Contact</h2>
+                </div>
+                <div class="col">
+                    <h1>감사합니다!</h1>
+                    <p>아무튼 연락바랍니다!</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="main_bg">
+        <div id="line">
+            <div class="main_wrap">
+                <img src="./imgs/copyright.png" alt="copyright ⓒ 2020 Park Beom-Jun.
+                ALL RIGHTS RESERVED. 이미지">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
