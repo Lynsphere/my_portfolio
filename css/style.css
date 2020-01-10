@@ -28,19 +28,13 @@ body {
 #cover.slideup {
     animation-name: cover;
     animation-duration: 1.5s;
-    animation-timing-function: cubic-bezier(.63,-0.01,.37,.98);
+    animation-timing-function: cubic-bezier(.84,0,.62,.99);
     animation-fill-mode: forwards;
 }
 @keyframes cover {
-    from{
-        top: -10%;
-    }
-    5%{
-        padding-top:20px;
-    }
-    to{
-        top: -100%;
-    }
+    from{ top: -10%; }
+    5%{ padding-top:20px; }
+    to{ top: -100%; }
 }
 #cover_line {
     height: 100%;
