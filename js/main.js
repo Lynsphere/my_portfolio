@@ -58,4 +58,40 @@ $(function(){
         $(this).removeClass('bounceInUp animated');
       });
 
+
+      // 스크롤을 감지하면 gnb축소
+      var didScroll; 
+      var lastScrollTop = 0; 
+      var delta = 5; 
+      var navbarHeight = $('#gnb').outerHeight(); 
+      
+      $(window).scroll(function(event){ 
+          didScroll = true; 
+        }); 
+        
+        setInterval(function() { 
+            if (didScroll) { 
+                hasScrolled(); 
+                didScroll = false; 
+            } 
+        }, 250); 
+        
+        function hasScrolled() { var st = $(this).scrollTop();
+            if(Math.abs(lastScrollTop - st) <= delta) return;
+            if (st > lastScrollTop && st > navbarHeight){ 
+                // Scroll Down 
+                $('#gnb')
+                    .removeClass('nav-left_move')
+                    .addClass('nav-right_move'); 
+            } else { 
+                // Scroll Up 
+                if(st + $(window).height() < $(document).height()) { 
+                    $('#gnb')
+                        .removeClass('nav-right_move')
+                        .addClass('nav-left_move'); 
+                } 
+            } 
+            lastScrollTop = st; 
+        }
+
 });

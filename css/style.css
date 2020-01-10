@@ -86,19 +86,40 @@ body {
 #gnb {
     position: fixed;
     z-index: 99;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 314px;
-    width: 685px;
-    height: 70px;
+    /* width: 685px; */
+    height: 55px;
     background: #fff;
     border-left: 35px solid #898989;
     box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.1);
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    overflow: hidden;
+}
+#gnb.nav-left_move {
+    width: 685px;
+    animation-name: left_move;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes left_move {
+    from{ margin-left: 1000px; }
+    to{ margin-left: 314px; }
+}
+#gnb.nav-right_move {
+    width: 0;
+    animation-name: right_move;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes right_move {
+    from{ }
+    to{ margin-left: 1000px; }
 }
 #gnb > ul > li {
     float: left;
     width: 25%;
-    line-height: 70px;
+    line-height: 55px;
     text-align: right;
     /* outline: 1px solid red; */
 }
@@ -139,15 +160,15 @@ section > div {
 }
 .section_title {
     /* outline: 1px solid green; */
-    height: 70px;
+    height: 55px;
     line-height: 70px;
 }
 .col {
     width: 86%;
     margin:0 auto;
-    margin-top: 130px;
+    margin-top: 50px;
     padding-bottom: 150px;
-    /* outline: 1px solid orange; */
+    outline: 1px solid orange;
 }
 .col h3 {
     font-size: 2em;
