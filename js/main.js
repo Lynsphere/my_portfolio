@@ -31,6 +31,7 @@ $(function(){
 
     $('#about').click(function(){
         $('section').removeClass('show')
+        scrollTo(0,0)
         $('#s2').addClass('show')
         $('#about_box').addClass('bounceInUp animated')
     });
@@ -40,6 +41,7 @@ $(function(){
 
     $('#portfolio').click(function(){
         $('section').removeClass('show')
+        scrollTo(0,0)
         $('#s3').addClass('show')
         $('#portfolio_box').addClass('bounceInUp animated')
     });
