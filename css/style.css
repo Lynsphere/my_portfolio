@@ -9,16 +9,17 @@ a {
     color: #000;
 }
 body {
+    position: relative;
     font-family: 'Noto Sans KR', sans-serif;
 }
 /* 커버 */
 #cover {
     position: absolute;
     z-index: 999;
-    top:-10%;
+    /* top:-10%; */
     /* bottom: 0; */
     width: 100%;
-    height: 95%;
+    height: 98%;
     background: #d1b693;
     box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.1);
     border-radius: 0 0 5% 5%;
@@ -32,7 +33,7 @@ body {
     animation-fill-mode: forwards;
 }
 @keyframes cover {
-    from{ top: -10%; }
+    from{ top: 0; }
     5%{ padding-top:20px; }
     to{ top: -100%; }
 }
@@ -40,19 +41,27 @@ body {
     height: 100%;
     margin-left: 5px;
     margin-right: 5px;
-    /* transform: translateY(-5px); */
     border: 4px dashed #a07c55;
     border-radius: 0 0 5% 5%;
     border-top: none;
 }
 #cover_bg {
     text-align: center;
-    padding-top: 25%;
-    color: rgba(255,255,255,1);
-    font-size: 100px;
+    padding-top: 300px;
+    color: rgba(255,255,255,0.5);
+    font-size: 90px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
 }
 #cover_bg > h1 {
     text-transform: uppercase;
+}
+#cover_bg > p {
+    margin-top: 200px;
+    font-size: 50px;
+    color: #a07c55;
+    font-weight: bold;
 }
 
 /* main */
