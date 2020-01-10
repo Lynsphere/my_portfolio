@@ -1,5 +1,10 @@
 /* main.js */
 $(function(){
+    // 메인커버 이동
+    $(document).click(function () {
+       $('#cover').addClass('slideup'); 
+    });
+
     // gnb 색상변환
     $('#home').mouseenter(function(){
         $('#gnb').css('border-left','35px solid #898989')

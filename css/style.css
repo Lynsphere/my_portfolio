@@ -11,6 +11,55 @@ a {
 body {
     font-family: 'Noto Sans KR', sans-serif;
 }
+/* 커버 */
+#cover {
+    position: absolute;
+    z-index: 999;
+    top:-10%;
+    /* bottom: 0; */
+    width: 100%;
+    height: 95%;
+    background: #d1b693;
+    box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.1);
+    border-radius: 0 0 5% 5%;
+    padding-bottom: 10px;
+}
+
+#cover.slideup {
+    animation-name: cover;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.63,-0.01,.37,.98);
+    animation-fill-mode: forwards;
+}
+@keyframes cover {
+    from{
+        top: -10%;
+    }
+    5%{
+        padding-top:20px;
+    }
+    to{
+        top: -100%;
+    }
+}
+#cover_line {
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* transform: translateY(-5px); */
+    border: 4px dashed #a07c55;
+    border-radius: 0 0 5% 5%;
+    border-top: none;
+}
+#cover_bg {
+    text-align: center;
+    padding-top: 25%;
+    color: rgba(255,255,255,1);
+    font-size: 100px;
+}
+#cover_bg > h1 {
+    text-transform: uppercase;
+}
 
 /* main */
 .main_wrap { 
