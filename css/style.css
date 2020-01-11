@@ -189,7 +189,7 @@ section > div {
 } 
 #home_box .col {
     text-align: right ;
-    padding-bottom: 0;
+    padding-bottom: 60px;
 }
 #home_box .col  h3 {
     text-align: left;
@@ -353,12 +353,18 @@ strong {font-size: 20px;}
 #s4 .col {
     text-align: center;
     line-height: 2em;
+    padding-bottom: 100px;
+}
+#s4 .col > p:first-child {
+    margin-top: 0.8em;
+    font-size: 5em;
+    margin-bottom: 0.8em;
 }
 #s4 .col > p {
     font-size: 18px;
 }
 #s4 ul { 
-    margin-top: 80px;
+    margin-top: 60px;
     line-height: 3em;
 }
 #s4 ul > li,
