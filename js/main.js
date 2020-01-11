@@ -5,20 +5,6 @@ $(function(){
        $('#cover').addClass('slideup'); 
     });
 
-    // gnb 색상변환
-    /* $('#home').mouseenter(function(){
-        $('#color_box').css('background-color','#898989')
-    });
-    $('#about').mouseenter(function(){
-        $('#color_box').css('background-color','#00aeef')
-    });
-    $('#portfolio').mouseenter(function(){
-        $('#color_box').css('background-color','#00a651')
-    });
-    $('#contact').mouseenter(function(){
-        $('#color_box').css('background-color','#ed145b')
-    }); */
-   
     // gnb
     $('#home').click(function(){
         $('#color_box').css('background-color','#898989')

@@ -1,0 +1,178 @@
+/* main_style.css */
+
+/* 초기화 */
+* { margin:0; padding:0; }
+html { 
+    overflow-y:scroll; 
+}
+ul { list-style-type: none; }
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* 커버 */
+#cover {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    background: #d1b693;
+    box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.1);
+    border-radius: 0 0 5% 5%;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+#cover.slideup {
+    animation-name: cover;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.84,0,.62,.99);
+    animation-fill-mode: forwards;
+}
+@keyframes cover {
+    from{ top: 0; }
+    5%{ padding-top:20px; }
+    to{ top: -100%; }
+}
+#cover_line {
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 4px dashed #a07c55;
+    border-radius: 0 0 5% 5%;
+    border-top: none;
+}
+#cover_bg {
+    text-align: center;
+    padding-top: 5%;
+    color: rgba(255,255,255,0.5);
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#cover_bg > h1 {
+    text-transform: uppercase;
+}
+
+/* section 공통 */
+.show {
+    display: block;
+}
+section > div {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.1);
+    background: #fdfdfd;
+}
+.col {
+    margin:0 auto;
+    /* outline: 1px solid orange; */
+}
+.col h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* about */
+.ps_icon {
+    width: 53px; height: 53px;
+    background: url('../imgs/css_sprites.png') -10px -218px;
+}
+.ps_score {
+    width: 130px; height: 25px;
+    background: url('../imgs/css_sprites.png') -160px -55px;
+}
+.ai_icon {
+    width: 53px; height: 53px;
+    background: url('../imgs/css_sprites.png') -83px -218px;
+}
+.ai_score {
+    width: 130px; height: 25px;
+    background: url('../imgs/css_sprites.png') -10px -10px;
+}
+.html5_icon {
+    width: 53px; height: 53px;
+    background: url('../imgs/css_sprites.png') -156px -145px;
+}
+.html5_score {
+    width: 130px; height: 25px;
+    background: url('../imgs/css_sprites.png') -10px -100px;
+}
+.css_icon {
+    width: 53px; height: 53px;
+    background: url('../imgs/css_sprites.png') -10px -145px;
+}
+.css_score {
+    width: 130px; height: 25px;
+    background: url('../imgs/css_sprites.png') -10px -55px;
+}
+.js_icon {
+    width: 53px; height: 53px;
+    background: url('../imgs/css_sprites.png') -229px -145px;
+}
+.js_score {
+    width: 130px; height: 25px;
+    background: url('../imgs/css_sprites.png') -160px -10px;
+}
+.ect_icon {
+    width: 53px; height: 53px;
+    background: url('../imgs/css_sprites.png') -83px -145px;
+}
+#s2 .col {
+    text-align: center;
+}
+#tools li > div {
+    display: inline-block;
+}
+#licence span {
+    font-size: 12px;
+    color: #666;
+}
+#tools > ul >li:first-child {
+    margin-bottom: 0.2em;
+}
+#tools > ul >li:nth-child(2) > div {
+    transform: scale(0.7, 0.7);
+}
+
+/* portfolio */
+#s3 h3 { text-align: center;}
+#s3 .col h4 {
+    margin-bottom: 1.5em;
+}
+#web_list > li > a {
+    font-size: 12px;
+    color: #00a651;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#s3 article > p:first-child {
+    font-size: 14px;
+    color: #282828;
+    margin-bottom: 1em;
+}
+#web_list > li {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+#design_list {
+    text-align: center;
+}
+
+/* 하단배경 */
+#main_bg {
+    position: fixed;
+    z-index: -99;
+    bottom: 0;
+    width: 100%;
+    background: #d1b693;
+}
+#line {
+    height: 100%;
+    margin: 5px;
+    border: 4px dashed #a07c55;
+    border-bottom: none;
+}
