@@ -17,8 +17,6 @@ body {
 #cover {
     position: absolute;
     z-index: 999;
-    /* top:-10%; */
-    /* bottom: 0; */
     width: 100%;
     height: calc(95% - 130px);
     -webkit-height: calc(95% - 130px);
@@ -178,7 +176,7 @@ section > div {
     margin:0 auto;
     margin-top: 50px;
     padding-bottom: 150px;
-    outline: 1px solid orange;
+    /* outline: 1px solid orange; */
 }
 .col h3 {
     font-size: 1.5em;
@@ -189,6 +187,35 @@ section > div {
 #home_box > .section_title {
     border-left: 35px solid #898989;
 } 
+#home_box .col {
+    text-align: right ;
+    padding-bottom: 0;
+}
+#home_box .col  h3 {
+    text-align: left;
+    margin-bottom: 0;
+    color: #898989;
+}
+#home_box .col > div > span {
+    float: left;
+    width: 72px; height: 18px;
+    /* outline: 1px solid red; */
+}
+#home_box .col span:nth-child(2) {background: #898989;}
+#home_box .col span:nth-child(3) {background: #00aeef;}
+#home_box .col span:nth-child(4) {background: #00a651;}
+#home_box .col span:nth-child(5) {background: #ed145b;}
+
+#home_box .col > p:nth-child(2) {
+    margin-top: 50px;
+    font-size: 5em;
+}
+#home_box .col > p {
+    line-height: 2em;
+}
+#home_box .col > p > strong {
+    font-size: 20px;
+}
 
 /* about */
 #about_box > .section_title {
@@ -292,10 +319,6 @@ strong {font-size: 20px;}
     margin-bottom: 1em;
 }
 
-/* contact */
-#contact_box > .section_title {
-    border-left: 35px solid #ed145b;;
-}
 #web_list {
     margin-bottom: 150px;
 }
@@ -315,7 +338,6 @@ strong {font-size: 20px;}
 #design_list > li {
     display: inline-block;
     width: 19.65%;
-    /* margin-bottom: 10px; */
     box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
     overflow: hidden;
 }
@@ -323,9 +345,28 @@ strong {font-size: 20px;}
     transition-duration: 1s;
     transform: scale(1.1, 1.1);
 }
+
+/* contact */
+#contact_box > .section_title {
+    border-left: 35px solid #ed145b;
+}
 #s4 .col {
     text-align: center;
+    line-height: 2em;
 }
+#s4 .col > p {
+    font-size: 18px;
+}
+#s4 ul { 
+    margin-top: 80px;
+    line-height: 3em;
+}
+#s4 ul > li,
+#s4 ul > li > a {
+    color: #ed145b;
+    font-size: 26px;
+}
+
 /* 하단배경 */
 #main_bg {
     position: fixed;
