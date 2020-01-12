@@ -135,6 +135,7 @@ section > div {
 #s2 .col li {
     margin-bottom: 1em;
     font-size: 14px;
+    word-break: keep-all;
     /* font-weight: bold; */
 }
 strong {font-size: 16px;}
@@ -152,6 +153,9 @@ strong {font-size: 16px;}
 }
 #web_list {
     margin-bottom: 100px;
+}
+#web_list li {
+    word-break: keep-all;
 }
 #web_list li a > img {
     width: 65%;
