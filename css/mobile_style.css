@@ -193,12 +193,12 @@ strong {font-size: 16px;}
 
 /* 하단배경 */
 #main_bg {
-    height: 150px;
+    height: 270px;
     text-align: right;
 }
 #line img {
     display: inline-block;
     transform: scale(0.8, 0.8);
-    margin-top: 10px;
+    margin-top: 130px;
 }
 
