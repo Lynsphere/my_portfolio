@@ -51,6 +51,7 @@
     line-height: 40px;
     text-align: center;
     color: #fff;
+    cursor: pointer;
     /* outline: 1px solid red; */
 }
 #gnb > ul > li:nth-child(1) { background: #898989;; }

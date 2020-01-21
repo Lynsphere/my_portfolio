@@ -23,6 +23,7 @@ body {
     border-radius: 0 0 5% 5%;
     padding-bottom: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 #cover.slideup {
     animation-name: cover;
