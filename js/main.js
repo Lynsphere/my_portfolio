@@ -1,7 +1,7 @@
 /* main.js */
 $(function(){
     // 메인커버 이동
-    $(document).click(function () {
+    $('#cover').click(function () {
        $('#cover').addClass('slideup'); 
     });
 
