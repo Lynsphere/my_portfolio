@@ -12,13 +12,15 @@ a {
 }
 body {
     font-family: 'Noto Sans KR', sans-serif;
+    background: #f1f1f1;
 }
 /* 커버 */
 #cover {
     position: absolute;
     z-index: 99;
     width: 100%;
-    background: #d1b693;
+    /* background: #d1b693; */
+    background: linear-gradient(135deg, #d1b693 0%,#C69E71 100%);
     box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.1);
     border-radius: 0 0 5% 5%;
     padding-bottom: 10px;
@@ -170,7 +172,8 @@ section > div {
     z-index: -99;
     bottom: 0;
     width: 100%;
-    background: #d1b693;
+    /* background: #d1b693; */
+    background: linear-gradient(135deg, #d1b693 0%,#C69E71 100%);
 }
 #line {
     height: 100%;
