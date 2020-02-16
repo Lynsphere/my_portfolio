@@ -165,6 +165,10 @@ section > div {
 #design_list {
     text-align: center;
 }
+#web_list > li:nth-child(4) > article > p:last-child {
+    font-size: 0.8em;
+    color: red;
+}
 
 /* 하단배경 */
 #main_bg {
