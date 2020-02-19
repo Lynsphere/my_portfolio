@@ -54,11 +54,14 @@
     cursor: pointer;
     /* outline: 1px solid red; */
 }
-#gnb > ul > li:nth-child(1) { background: #898989;; }
+#gnb > ul > li:nth-child(1) { background: #898989; }
 #gnb > ul > li:nth-child(2) { background: #00aeef; }
 #gnb > ul > li:nth-child(3) { background: #00a651; }
 #gnb > ul > li:nth-child(4) { background: #ed145b; }
 #color_box { display: none; }
+#gnb > ul > li:active {
+    box-shadow: 0 0 3px 8px rgba(255,255,255,0.5) inset;
+}
 
 /* section 공통 */
 section {
